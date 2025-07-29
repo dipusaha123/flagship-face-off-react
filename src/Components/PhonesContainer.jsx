@@ -1,9 +1,13 @@
 import React from 'react';
 
-const PhonesContainer = () => {
+const PhonesContainer = ({phones}) => {
+    console.log(phones)
     return (
-        <div>
-            <h3>this is Phone Container</h3>
+        <div className='py-12'>
+            <div className='grid'>
+
+            </div>
+            
         </div>
     );
 };
